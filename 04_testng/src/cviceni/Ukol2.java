@@ -27,7 +27,7 @@ public class Ukol2 {
 	 * @return		je-li vstup nezaporny, pak vraci input, jinak -1*input.
 	 */
 	public static int abs(int input) {
-		return (input >= 0) ? input : invert(input);
+		return (input >= 0) ? input : -invert(input);
 	}
 	
 	/**
