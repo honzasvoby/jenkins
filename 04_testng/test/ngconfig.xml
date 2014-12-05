@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DefaultSuite">
+    <test name="Vse">
+        <groups>            
+            <run>
+            	<include name="working" />
+            	<exclude name="todo" />
+            </run>
+        </groups>
+  		
+  		<classes>
+    		<class name="cviceni.Ukol1Test"/>
+  		</classes>
+    </test>
+    
+</suite>
